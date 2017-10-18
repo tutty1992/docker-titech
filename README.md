@@ -6,13 +6,15 @@
 
 ## Docker
 
-Mac
-https://www.docker.com/docker-mac
+### Mac
+* https://www.docker.com/docker-mac
 
-Windows
-https://store.docker.com/editions/community/docker-ce-desktop-windows
+### Windows
+* https://store.docker.com/editions/community/docker-ce-desktop-windows
 
 ## git
+
+### Mac
 
 ターミナルを開いて、
 
@@ -22,7 +24,7 @@ $ brew install git
 
 ## エディタ
 
-してい必要に応じて、以下よりダウンロードしてい。
+必要に応じて、以下よりダウンロードしてい。
 
 https://atom.io/
 
