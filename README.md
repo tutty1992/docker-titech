@@ -1,7 +1,7 @@
 # 事前準備
 
- * docker
- * git
+ * Docker
+ * Git
  * エディタ
 
 ## Docker
@@ -9,9 +9,23 @@
 Mac
 https://www.docker.com/docker-mac
 
+Windows
+https://store.docker.com/editions/community/docker-ce-desktop-windows
+
 ## git
 
+ターミナルを開いて、
+
+```
+$ brew install git
+```
+
 ## エディタ
+
+してい必要に応じて、以下よりダウンロードしてい。
+
+https://atom.io/
+
 
 # 環境構築
 
