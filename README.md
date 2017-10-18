@@ -45,7 +45,7 @@ https://atom.io/
 ## リポジトリをクローンする
 
 ```
-$ git clone git@github.com:GuildWorks/docker-titech.git
+$ git clone https://github.com/GuildWorks/docker-titech.git
 ```
 
 ## ディレクトリ名を変更し、ディレクトリに移動する
