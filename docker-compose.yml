@@ -6,7 +6,7 @@ web:
   build: .
   command: bundle exec rails s -p 3000 -b '0.0.0.0'
   volumes:
-    - .:/start_project
+    - .:/docker-titech
   ports:
     - "3000:3000"
   links:
@@ -18,6 +18,6 @@ web:
     - DB_PASSWORD=
     - DB_HOST=db
 bundle:
-  image: startproject_web
+  image: dockertitech_web
   volumes:
     - /bundle

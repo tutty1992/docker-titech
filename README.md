@@ -14,14 +14,14 @@
 ## リポジトリをクローンする
 
 ```
-$ git clone git@github.com:gupipo/start_project.git
+$ git clone git@github.com:GuildWorks/docker-titech.git
 ```
 
 ## ディレクトリ名を変更し、ディレクトリに移動する
 ディレクトリ名は自由
 
 ```
-$ mv start_project example
+$ mv docker-titech example
 $ cd example
 ```
 
@@ -29,7 +29,7 @@ $ cd example
 `Dockerfile` の 18 行目にフォルダ名を設定する
 
 ```
-ENV app_name start_project
+ENV app_name docker-titech
 ```
 
 ↑ を変更する
@@ -42,7 +42,7 @@ ENV app_name example
 
 9 行目
 ```
-    - .:/start_project
+    - .:/docker-titech
 ```
 
 ↑ を変更する
@@ -54,7 +54,7 @@ ENV app_name example
 21 行目
 
 ```
-  image: startproject_web
+  image: dockertitech_web
 ```
 
 ↑ を変更する
@@ -125,7 +125,7 @@ http://localhost:3000/
 github にリポジトリを作成し、 push する
 
 ```
-$ git remote set-url origin git@github.com:gupipo/xxxxxxxxxx.git
+$ git remote set-url origin git@github.com:GuildWorks/xxxxxxxxxx.git
 $ git add .
 $ git commit -m 'new project'
 $ git push -u origin master
